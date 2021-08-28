@@ -1,12 +1,11 @@
 # Ataques-em-redes-WIFI
-ataques
- ############################# HISTÓRICO ############################
+### HISTÓRICO ###
 
-Wi-fi ou Wireless Area Network (WLAN)
+'Wi-fi ou Wireless Area Network (WLAN)
 Parão - IEEE 802.11
 Nome surgiu em agosto de 1999 criado pela Wi-fi Alliance
 Utilizada em sua maioria em redes abertas ou com criptograia WEP.
-WPA surge apenas em 2003 e é amplamente difundida apenas após 2009.
+WPA surge apenas em 2003 e é amplamente difundida apenas após 2009.'
 
 
 
@@ -24,29 +23,12 @@ todas elas atuam em frequencias diferentes...
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+				MAC ADDRESS
 
 MAC ADDRESS = ENDEREÇO FISICO DE QUALQUER DISPOSITIVO QUE SE CONECTA NA REDE, VEM DE FABRICA DE CADA DISPOSITIVO
-========================================================================================================================================================
 
 
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 				PADRÕES
 
 Protocolo     |      Data        |    Frequência    |    Transmissão Max.	
@@ -64,19 +46,19 @@ aj            |  2016            |     45/60 Ghz    |
 ay            |  2017            |     60 GHz       |	100 Gbps
 ax            |	 2019            |     2,4/5 GHz    |
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-========================================================================================================================================================
 
 				CANAIS
 
-========================================================================================================================================================
+
 
 
 Conexeção wifi opera em canais, faixa de frequencias diferentes
 geralmente as redes atuais operam nas frequencias de 2,4 Ghz, mas existe sub-frequencias que estão dividindo os canais, cada canal é uma sub divisão
 
-	
+~~~~~~~~~~~~~~~~~~~~~~~~~~	
 
 Canal 1   = 2.412    longe
 Canal 2	  = 2.417
@@ -90,6 +72,8 @@ Canal 9   = 2.452
 Canal 10  = 2.457
 Canal 11  = 2.462    longe
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 os canais tem uma largura de banda de 22 MHz, e eles se intrelassam, um canal esta sempre interferindo no outro, os canais que tem a maior distancia um do outro é o 1,6 e 11 por isso se for fazer uma configuração em roteadores proximos usar esses canais
 ainda existira interferencia, porem sera minima
 
@@ -99,15 +83,16 @@ ainda existira interferencia, porem sera minima
 
 
 
-====================================================================================================================================================================================================
 
-			CRIPTOGRAFIAS E AUTENTICAÇÕES
+# CRIPTOGRAFIAS E AUTENTICAÇÕES
 
 
-					OPEN
-				     Rede aberta
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+OPEN
+Rede aberta
 
--------------------------------------------------------------------------------------------
+
+------------------------------------------
 
 				WEP (Wired-Equivalent Privacy)
 			    "Uma segurança equivalente a cabeada"
@@ -128,6 +113,8 @@ ainda existira interferencia, porem sera minima
 
 
 Seed, vai gerar uma criptografia dos seus dados não criptografados, essa seed vai gerar a partir de uma chave ou seja sua senha + IV (Initialization vector(Vetor de Inicialização))
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -------------------------------------------------------------------------------------------       
 			WPA (Wired Protected Acess) e TKIP
